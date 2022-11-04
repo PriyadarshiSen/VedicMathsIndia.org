@@ -5,11 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tailwindcss Installed</title>
+    <title>Vadic Maths Forum | World's Fastest Mental Math System</title>
 
     <link rel="stylesheet" href="./input.css">
 </head>
 
-<body></body>
+<body>
+    <!-- Top Ribbon -->
+    <div class="w-full px-4 bg-black text-white flex items-center justify-between">
+        <p></p>
+        <p class="">Welcome to <span class="text-amber-400">Vedic Maths Forum</span></p>
+        <strong class="text-xl cursor-pointer welcome-del">&times;</strong>
+    </div>
+
+    <nav class="bg-cyan-700 px-4 py-2 flex justify-between align-middle">
+        <img src="./logo.webp" alt="">
+
+        <ul class="flex justify-center align-middle my-3 text-white">
+            <li><a class="mx-2 invisible" href="">Home</a></li>
+            <li><a class="mx-2" href="">About</a></li>
+            <li><a class="mx-2" href="">Courses</a></li>
+            <li><a class="mx-2" href="">Services</a></li>
+            <li><a class="mx-2" href="">Blogs</a></li>
+            <li><a class="mx-2 bg-amber-400 px-4 py-2 rounded-full text-black" href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <script>
+        // Script For Close Welcome msg
+        var welcome_del = document.querySelectorAll('.welcome-del');
+        welcome_del.forEach((x) =>
+            x.addEventListener('click', function () {
+                x.parentElement.classList.add('hidden');
+            })
+        );
+    </script>
+</body>
 
 </html>
