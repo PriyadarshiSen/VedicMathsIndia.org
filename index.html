@@ -18,44 +18,123 @@
         <strong class="text-xl cursor-pointer welcome-del">&times;</strong>
     </div>
 
+    <!-- Navigation Bar -->
     <nav class="bg-cyan-700 px-4 py-2 flex justify-between align-middle">
+
+        <!-- Logo -->
         <img src="./logo.webp" alt="">
 
+        <!-- Nav Items -->
         <ul class="flex justify-center align-middle my-3 text-white">
             <li><a class="mx-2 invisible" href="">Home</a></li>
             <li><a class="mx-2" href="">About</a></li>
             <li><a class="mx-2" href="">Courses</a></li>
             <li><a class="mx-2" href="">Services</a></li>
             <li><a class="mx-2" href="">Blogs</a></li>
-            <li><a class="mx-2 bg-amber-400 px-4 py-2 rounded-full text-black" href="">Contact</a></li>
+            <li><a class="mx-2 px-4 py-2 rounded-full text-black bg-amber-400" href="">Contact</a></li>
+            <li><a class="mx-2 px-4 py-2 border font-bold text-white" href="">Login</a></li>
         </ul>
     </nav>
 
+
+    <!-- Main Contents -->
     <main>
+
+        <!-- Landing Page || Section 01 -->
         <section class="grid grid-cols-12 gap-4">
-            <div class="p-6 col-span-5 text-center">
-                <h1 class="text-2xl text-neutral-800 my-4 font-ubuntu">Get better Grades<br />
-                    <span class="">with</span><br />
+
+            <!-- Slogun -->
+            <div class="col-span-5 p-6 flex flex-col align-middle justify-center">
+                <h1 class="text-4xl text-neutral-800 my-4 font-bold font-ubuntu">Get better Grades with<br />
                     <span class="font-bold text-cyan-700">Vedic Maths</span>
                 </h1>
-                <p class="text-xl border-l-4 border-cyan-500 px-1 text-start">World's Fastest Mental Math System</p>
-                <button class="bg-amber-400 px-4 py-2 rounded-full my-6">Book a FREE DEMO</button>
+                <p class="text-normal border-l-4 text-zinc-700 border-cyan-700 px-1">World's Fastest Mental Math System
+                </p>
+
+                <button class="bg-amber-400 w-fit px-4 py-2 bg- rounded-full my-6">Book a FREE DEMO</button>
             </div>
 
+            <!-- Video -->
             <div class="col-span-7">
                 <video autoplay loop src="./hero.mp4"></video>
             </div>
 
-            
         </section>
 
-        <section class="bg-black">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/grkWGeqW99c"
+
+        <!-- What is Vedic Maths || Section 02 -->
+        <section class="bg-black grid grid-cols-12 gap-4">
+
+            <iframe class="col-span-6 w-full h-full" height="" width="" src="https://www.youtube.com/embed/grkWGeqW99c"
                 title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
 
-            <div class=""></div>
+            <div class="col-span-6 text-white my-6 p-4">
+                <h1 class="text-4xl font-bold my-4">What is <span class="text-cyan-700">Vedic Maths</span>?</h1>
+                <p>Vedic Maths is India's gift to the World just like Yoga and Ayurveda. By learning Vedic Maths you
+                    will be able to calculate much faster compared to the traditional system.
+                    <a class="text-cyan-700 hover:text-cyan-500" href="">Read More >></a>
+                </p>
+
+                <button class="px-4 py-2 my-4 border border-amber-400 text-amber-400">
+                    <a href="">Watch Full Video</a>
+                </button>
+            </div>
+        </section>
+
+
+
+        <section class="p-12">
+
+            <h1 class="text-4xl font-bold text-center my-12">
+                Why should you <span class="text-cyan-700">choose us</span>?
+            </h1>
+
+            <!-- Reason 01 || 20+ Experience -->
+            <div class="my-16">
+                <p class="text-cyan-700 font-bold my-4">Reason <span
+                        class="bg-cyan-700 text-white rounded-full p-2">01</span>
+                </p>
+                <p class="text-center text-3xl">Our courses are structured based on
+                    <span class="text-amber-500 text-4xl font-bold">20+</span> years of
+                    <span class="text-cyan-700 font-bold">experience</span> in teaching mathematics for students and
+                    teachers of all levels.
+                </p>
+            </div>
+
+            <!-- Reason 02 || PM Modi -->
+            <div class="my-16">
+                <p class="text-cyan-700 font-bold my-4">Reason <span
+                        class="bg-cyan-700 text-white rounded-full p-2">02</span>
+                </p>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <!--iframe class="col-span-1" width="100%" height="100%"
+                        src="https://www.youtube.com/embed/eh3z8b5878E" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe-->
+
+                    <iframe class="col-span-1 rounded-xl" width="100%" height="100%"
+                        src="https://www.youtube.com/embed/eh3z8b5878E?start=353" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="col-span-1">
+                        <h1 class="text-3xl px-6 my-16">Honourable <span class="text-cyan-700 font-bold">Prime Minister
+                                of India</span> has faith on us</h1>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="my-16">
+
+            <h1 class="text-4xl font-bold text-center">
+                Our <span class="text-cyan-700">Courses</span>
+            </h1>
         </section>
     </main>
 
