@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Vedic Maths Forum</title>
+
+    <link rel="stylesheet" href="./input.css">
+</head>
+
+<body class="bg-cyan-700">
+    <!-- Navigation Bar -->
+    <nav class="bg-cyan-700 px-4 py-2 flex justify-between align-middle">
+
+        <!-- Logo -->
+        <img src="./logo.webp" alt="">
+
+        <!-- Nav Items -->
+        <ul class="flex justify-center align-middle my-3 text-white">
+            <li><a class="mx-2" href="./index.html">Home</a></li>
+            <li><a class="mx-2" href="">About</a></li>
+            <li><a class="mx-2" href="">Courses</a></li>
+            <li><a class="mx-2" href="">Services</a></li>
+            <li><a class="mx-2" href="">Blogs</a></li>
+            <li><a class="mx-2 px-4 py-2 rounded-full text-black bg-amber-400" href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="w-screen p-12 flex items-center justify-center">
+        <div class="w-full max-w-xs">
+            <form class="bg-white shadow-md rounded-2xl px-8 pt-6 pb-8 mb-4">
+
+                <h1 class="text-4xl text-center pb-8 text-cyan-700">Log In</h1>
+
+                <div class="mb-8 group">
+                    <!--label class="block text-cyan-700 text-center font-bold mb-2" for="username">
+                        Username
+                    </label-->
+                    <input
+                        class="text-center shadow appearance-none border rounded-full w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="username" type="text" placeholder="User ID">
+                </div>
+                <div class="mb-8">
+                    <!--label class="block text-cyan-700 text-center font-bold mb-2" for="password">
+                        Password
+                    </label-->
+                    <input
+                        class="text-center shadow appearance-none border rounded-full w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                        id="password" type="password" placeholder="Password">
+                    <!--p class="text-red-500 text-xs italic">Please choose a password.</p-->
+                </div>
+                <div class="flex items-center justify-center">
+                    <button
+                        class="bg-cyan-700 hover:bg-amber-400 hover:text-gray-900 text-white font-bold py-2 px-8 rounded-full focus:outline-none focus:shadow-outline"
+                        type="button">
+                        Login
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
