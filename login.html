@@ -32,32 +32,37 @@
         <div class="w-full max-w-xs">
             <form class="bg-white shadow-md rounded-2xl px-8 pt-6 pb-8 mb-4">
 
-                <h1 class="text-4xl text-center pb-8 text-cyan-700">Log In</h1>
+                <div class="flex justify-center pb-8">
+                    <img class="w-20 h-auto" src="./main-logo.png" alt="">
+                </div>
 
-                <div class="mb-8 group">
+                <div class="mb-8">
                     <!--label class="block text-cyan-700 text-center font-bold mb-2" for="username">
                         Username
                     </label-->
                     <input
-                        class="text-center hover:bg-gray-200 focus:bg-gray-100 appearance-none border border-neutral-300 focus:border-cyan-700 rounded-full w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        id="username" type="text" placeholder="User ID">
+                        class="transition-all focus:bg-gray-100 border-b border-neutral-300 focus:border-cyan-700 w-full py-2 px-0 focus:px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="username" type="text" placeholder="username">
                 </div>
                 <div class="mb-8">
                     <!--label class="block text-cyan-700 text-center font-bold mb-2" for="password">
                         Password
                     </label-->
                     <input
-                        class="text-center hover:bg-gray-200 focus:bg-gray-100 appearance-none border border-neutral-300 focus:border-cyan-700 rounded-full w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        id="password" type="password" placeholder="Password">
+                        class="transition-all focus:bg-gray-100 border-b border-neutral-300 focus:border-cyan-700 w-full py-2 px-0 focus:px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="password" type="password" placeholder="password">
                     <!--p class="text-red-500 text-xs italic">Please choose a password.</p-->
                 </div>
                 <div class="flex items-center justify-center">
                     <button
-                        class="bg-cyan-700 hover:bg-amber-400 hover:text-gray-900 text-white font-bold py-2 px-8 rounded-full focus:outline-none focus:shadow-outline"
-                        type="button">
+                        class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-8 rounded-full focus:outline-none focus:shadow-outline"
+                        type="submit">
                         Login
                     </button>
                 </div>
+
+                <p class="text-center mt-4 text-cyan-800 hover:opacity-75 hover:underline"><a href="./master.html">Click here to bypass login</a></p>
+
             </form>
         </div>
     </main>
